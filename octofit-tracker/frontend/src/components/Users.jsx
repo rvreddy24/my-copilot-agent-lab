@@ -1,3 +1,4 @@
 export default function Users() {
-  return <div>Users Tier (Endpoint: /api/users/)</div>;
+  const url = `https://${import.meta.env.VITE_CODESPACE_NAME}-8000.app.github.dev/api/users/`;
+  return <div>Users View</div>;
 }
